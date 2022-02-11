@@ -1,8 +1,7 @@
 ﻿using CrawlerWebNet6.Models;
 using CrawlerWebNet6.Services;
 using Hangfire;
-using Hangfire.MemoryStorage;
-using Microsoft.AspNetCore.Builder;
+using Hangfire.MemoryStorage; 
 using Microsoft.OpenApi.Models;
 
 string MyOrigin = "AllowMyOrigin";
@@ -23,11 +22,7 @@ builder.Services.AddHangfire(configuration => configuration
         .UseRecommendedSerializerSettings()
         .UseMemoryStorage());
 
-        builder.Services.AddHangfireServer();
-
-
-
-
+        builder.Services.AddHangfireServer(); 
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -94,13 +89,21 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-app.UseAuthentication(); // Authentication - first
-
+app.UseAuthentication();  
 
 app.UseHangfireDashboard("/hangfire", new DashboardOptions
 {
     Authorization = new[] { new HangFireAuthorizationFilter() }
 });
+
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API");
+});
+
+
 
 
 var backgroundJobs = new BackgroundJobClient();
@@ -121,10 +124,7 @@ app.UseEndpoints(endpoints =>
 });
 
 
-app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API");
-});
+
+
 
 app.Run();
