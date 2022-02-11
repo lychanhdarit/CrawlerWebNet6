@@ -4,7 +4,7 @@
 3. SqlLite
 4. Swagger
 ---------------------------------------
-Demo Web lấy tin từ VNExpress
+Demo Web lấy tin từ VNExpress.
 Hẹn giờ chạy ẩn.
 Trả API cho người dùng.
 
