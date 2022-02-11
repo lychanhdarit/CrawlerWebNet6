@@ -1,0 +1,20 @@
+﻿@model IEnumerable<CrawlerWebNet6.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+@foreach (var item in Model)
+{
+    <hr />
+    <h1>
+        @item.Title
+    </h1>
+    <div>
+        @Html.Raw(item.Content.Replace("lazy","lazyload"))
+    </div>
+    <a asp-action="Edit" asp-route-id="@item.PostId">Edit</a>
+    <a asp-action="Delete" asp-route-id="@item.PostId">Delete</a>
+}
