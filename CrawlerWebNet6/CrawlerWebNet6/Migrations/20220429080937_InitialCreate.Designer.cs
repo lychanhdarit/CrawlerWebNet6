@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrawlerWebNet6.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    [Migration("20220211072740_InitialCreate")]
+    [Migration("20220429080937_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

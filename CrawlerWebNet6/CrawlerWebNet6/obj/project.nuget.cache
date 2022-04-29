@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e8DNfBUY07bZB3Em3mNAmXCLQj7DQqXUX/ffhmdoSN2/75JczdYjVhzXI6oUAZpm18w7hFHu+lgq8DBPhXIFzA==",
+  "dgSpecHash": "OzgqO+f6ysRk9/NVDf4UycvBvgXPKGxtPObETe6KqFJIhxXAv8D/KXJAVty70VGjk/6D35XPMlGge8W8yQO2Xw==",
   "success": true,
-  "projectFilePath": "F:\\PROJECT\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6.csproj",
+  "projectFilePath": "F:\\PROJECT\\Code Template\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DEV\\.nuget\\packages\\hangfire.aspnetcore\\1.7.28\\hangfire.aspnetcore.1.7.28.nupkg.sha512",
     "C:\\Users\\DEV\\.nuget\\packages\\hangfire.core\\1.7.28\\hangfire.core.1.7.28.nupkg.sha512",

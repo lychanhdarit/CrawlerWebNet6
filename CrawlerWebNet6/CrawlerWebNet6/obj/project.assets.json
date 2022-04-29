@@ -10310,11 +10310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROJECT\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6.csproj",
+      "projectUniqueName": "F:\\PROJECT\\Code Template\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6.csproj",
       "projectName": "CrawlerWebNet6",
-      "projectPath": "F:\\PROJECT\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6.csproj",
+      "projectPath": "F:\\PROJECT\\Code Template\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6.csproj",
       "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
-      "outputPath": "F:\\PROJECT\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\obj\\",
+      "outputPath": "F:\\PROJECT\\Code Template\\CrawlerWebNet6\\CrawlerWebNet6\\CrawlerWebNet6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
